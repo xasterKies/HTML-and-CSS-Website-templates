@@ -348,5 +348,16 @@ header {
 }
 
 .city-feature {
-    margin-bottom: ;
+    margin-bottom: 5px;
+}
+
+
+
+/* ------------------------------------ */
+/* TESTINIALS  */
+/* ------------------------------------ */
+
+.section-testinonial {
+    background-image: url(/OmniFood/resources/images/back-customers.jpg);
+    background-size: cover;
 }
