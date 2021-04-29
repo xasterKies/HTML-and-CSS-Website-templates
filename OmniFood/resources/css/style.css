@@ -223,7 +223,7 @@ header {
 .main-nav li a:link,
 .main-nav li a:visited
  {
-    padding: 8px, 0px;
+    padding: 8px;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -575,10 +575,14 @@ footer {
     color: #fa249a
 }
 
-.footer p {
+footer p {
+    display: block;
     color: #888;
     font-size: 90%;
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
     justify-content: center;
 }
+
+
+
