@@ -33,8 +33,33 @@
     .works-steps {
         margin-bottom: 40px;
     }
-    .works-steps {
-        
+    .works-steps:last-of-type {
+        margin-bottom: 60px;
+    }
+    .steps-box:last-child {
+        margin-top: 10px;
+    }
+
+    .app-screen {
+        width: 50%;
+    }
+
+    .icon-small {
+        width: 20px;
+        margin-right: 5px;
+    }
+
+    .city-feature {
+        font-size: 90%;
+    }
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .plan-price {
+        font-size: 300%;
     }
 }
 
