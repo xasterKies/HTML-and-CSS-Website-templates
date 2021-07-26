@@ -24,6 +24,7 @@ body {
 
 .header {
     height: 95vh;
+    position: relative;
     background-image: linear-gradient(
         to right bottom,
          #7ed56fc2,
@@ -33,3 +34,19 @@ body {
     background-position: top;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
+
+.logo-box{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.logo {
+    height: 35px;
+}
+
+.heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+}
+
