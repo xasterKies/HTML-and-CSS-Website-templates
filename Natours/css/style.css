@@ -109,6 +109,24 @@ body {
         opacity: 1;
         transform: translate(0);
     }
+    
+}
+
+@keyframes moveInButton {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    80% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+    
 }
 
 .btn:link,
@@ -155,6 +173,7 @@ body {
     top: 0;
     left: 0;
     z-index: -1;
+    transition: all .4s;
 }
 
 .btn-white::after {
@@ -162,6 +181,11 @@ body {
 }
 
 .btn:hover::after {
-    transform: scale(2);
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
 }
 
+.btn-animated {
+    animation: moveInButton .5s ease-out .75s;
+    animation-fill-mode: backwards;
+}
