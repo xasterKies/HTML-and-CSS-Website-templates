@@ -79,7 +79,13 @@ body {
   transition: all .2s; }
   .heading-secondary:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
-    text-shadow: .5rem 1rem 2rem r; }
+    text-shadow: 0.5rem 1rem 2rem rgba(119, 119, 119, 0.5); }
+
+.u-center-text {
+  text-align: center; }
+
+.u-margin-bottom-8 {
+  margin-bottom: 8rem; }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -156,7 +162,6 @@ body {
 
 .row {
   max-width: 114rem;
-  background-color: #eee;
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
@@ -165,7 +170,6 @@ body {
     display: table;
     clear: both; }
   .row [class*="col-"] {
-    background-color: orangered;
     float: left; }
     .row [class*="col-"]:not(:last-child) {
       margin-right: 6rem; }
